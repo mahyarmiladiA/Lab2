@@ -1,0 +1,24 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    /* sets the font style */
+    font: size 45px;
+    /*sets the font size*/
+    color: rgb(255, 125, 0);
+    /*sets the font color*/
+    text-align: justify;
+    /*justifies text aligrment*/
+    font-weight: bold;
+    /* makes the font bold*/
+    font-style: italic;
+    /*makes the font italic*/
+    background-color: blue;
+    
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;/*creates two columns of equal width*/
+    grid-gap:10px;/*set the gap between rows and columns*/
+    padding:10px/*adds some padding around the grid*/
+    
+
+}
