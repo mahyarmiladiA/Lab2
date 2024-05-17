@@ -1,5 +1,5 @@
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:fantasy;
     /* sets the font style */
     font: size 45px;
     /*sets the font size*/
@@ -17,8 +17,29 @@ p{
 .grid-container{
     display: grid;
     grid-template-columns: auto auto;/*creates two columns of equal width*/
-    grid-gap:10px;/*set the gap between rows and columns*/
-    padding:10px/*adds some padding around the grid*/
+    grid-gap:40px;/*set the gap between rows and columns*/
+    padding:40px/*adds some padding around the grid*/
     
+
+}
+.flex-container{
+    display: flex;/*enable flexbox*/
+    justify-content: space-around;/*distributes space around items*/
+    align-items: center;/*conters items vertically*/
+    padding: 50px;/*adds some padding around the flex container*/
+    background-color: blue;/*back ground for the flex container*/
+}
+.flex-item{
+background-color: rgb(240, 245, 250); /*light blue background for flex items*/
+border: 1px solid rgba(22, 22, 116, 0.885);/*rgba border for flex item*/
+padding: 20px;/*add some padding inside the flex item*/
+margin: 50px;/* add some margin around the flex item*/
+font-size: 30px;
+text-align: center;
+flex-grow: 4;/*allows flex item to grow to fill available space*/
+
+
+
+
 
 }
